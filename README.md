@@ -1,5 +1,5 @@
 # 🌐 Status Page - Hylex Inspired
-Este é um projeto de **página de status personalizada**, inspirado no [status.hylex.com](https://status.hylex.com), criado para monitorar visualmente o estado de serviços de um servidor de Minecraft, como lobby, proxy, APIs e websites.
+Este é um projeto de **página de status personalizada**, inspirado no [status.hylex.online](https://status.hylex.online/), criado para monitorar visualmente o estado de serviços de um servidor de Minecraft, como lobby, proxy, APIs e websites.
 
 > 🔓 Projeto **livre e open-source**. Sinta-se à vontade para usar, modificar e contribuir!
 
@@ -60,4 +60,4 @@ Você pode usá-lo para fins pessoais e comerciais.
 
 ## 🙌 Créditos
 Desenvolvido por [NesquikDeveloper](https://github.com/nesquikdeveloper)  
-Inspirado em [status.hylex.com](https://status.hylex.com)
+Inspirado em [status.hylex.online](https://status.hylex.online/)
