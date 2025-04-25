@@ -61,3 +61,5 @@ Você pode usá-lo para fins pessoais e comerciais.
 ## 🙌 Créditos
 Desenvolvido por [NesquikDeveloper](https://github.com/nesquikdeveloper)  
 Inspirado em [status.hylex.online](https://status.hylex.online/)
+![image](https://github.com/user-attachments/assets/6bfaf4d0-4733-41ff-a384-91abeebe8b2b)
+![image](https://github.com/user-attachments/assets/82b74c7e-6877-4ba9-ac6a-57fbfd1aeabf)
