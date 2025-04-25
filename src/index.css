@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-base-dark text-text-primary;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-card-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-border-dark rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-neon-blue transition-colors duration-300;
+}
+
+@layer components {
+  .neon-btn {
+    @apply relative transition-all duration-300 rounded-md;
+  }
+
+  .neon-btn-green {
+    @apply neon-btn border border-neon-green text-neon-green;
+  }
+  
+  .neon-btn-green:hover {
+    @apply bg-neon-green/10 shadow-neon-green;
+  }
+
+  .neon-btn-blue {
+    @apply neon-btn border border-neon-blue text-neon-blue;
+  }
+  
+  .neon-btn-blue:hover {
+    @apply bg-neon-blue/10 shadow-neon-blue;
+  }
+
+  .neon-btn-purple {
+    @apply neon-btn border border-neon-purple text-neon-purple;
+  }
+  
+  .neon-btn-purple:hover {
+    @apply bg-neon-purple/10 shadow-neon-purple;
+  }
+
+  .neon-btn-red {
+    @apply neon-btn border border-neon-red text-neon-red;
+  }
+  
+  .neon-btn-red:hover {
+    @apply bg-neon-red/10 shadow-neon-red;
+  }
+
+  .card {
+    @apply bg-card-dark border border-border-dark rounded-lg p-4 transition-all duration-300;
+  }
+
+  .card:hover {
+    @apply border-neon-blue/50 shadow-neon-blue/20;
+  }
+
+  .status-indicator {
+    @apply inline-block w-3 h-3 rounded-full mr-2;
+  }
+
+  .status-online {
+    @apply status-indicator bg-online shadow-neon-green;
+  }
+
+  .status-offline {
+    @apply status-indicator bg-offline shadow-neon-red;
+  }
+
+  .status-warning {
+    @apply status-indicator bg-warning shadow-warning;
+  }
+
+  .input-dark {
+    @apply bg-panel-dark border border-border-dark rounded-md px-4 py-2 focus:outline-none focus:border-neon-blue focus:shadow-neon-blue/20 transition-all duration-300;
+  }
+
+  .uptime-bar {
+    @apply h-2 rounded-full bg-gradient-to-r from-neon-green to-neon-blue;
+  }
+}
