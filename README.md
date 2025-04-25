@@ -1,4 +1,3 @@
-```markdown
 # 🌐 Status Page - Hylex Inspired
 Este é um projeto de **página de status personalizada**, inspirado no [status.hylex.com](https://status.hylex.com), criado para monitorar visualmente o estado de serviços de um servidor de Minecraft, como lobby, proxy, APIs e websites.
 
